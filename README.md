@@ -25,7 +25,7 @@ The task is to write an automated test validating that a user can create an acco
 1.	You need to have Java version 20.0.1 and Node v20.2.0 installed on your machine.
 2.	Run “npm install” (without the quotes) before running the test scripts in order to install missing dependencies.
 3.	Due to conflicts with Fountain on the AUT3 QA server, I’m using the Pod2 Platoon 4 QA env to execute my automation tests.
-4.	Note: I’m committing Allure test reports/results to demonstrate that the code is working as expected.  Normally, this would be added to the .gitignore file. 
+4.	Note: I’m committing Allure test reports/results to demonstrate that I've implemented HTML reporting in my project.
 
 **Run the Following Commands to Execute Test Scripts**
 
@@ -40,6 +40,11 @@ The task is to write an automated test validating that a user can create an acco
 9.	npm run report-open: Opens HTML test report using Allure
 
 
+<img width="1507" alt="github1" src="https://github.com/jspace9922/sdet-coding-challenge-main/assets/134408657/1bdc9c1b-dfe5-4e92-bf3e-0176b8f5c419">
+Screenshot of Passing Tests
+
+<img width="1512" alt="github2" src="https://github.com/jspace9922/sdet-coding-challenge-main/assets/134408657/9bb91f1a-dd5c-4282-9173-a3bc88478cd3">
+Screenshot of Broken Test
 
 
 
