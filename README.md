@@ -20,14 +20,14 @@ The task is to write an automated test validating that a user can create an acco
 **Note**: Please enter 10 digit phone number (7589577506) and 5 digit zip code (02090) for test data during testing.
 
 ## Test Framework Instructions
-##Pre-Requisites 
+**Pre-Requisites **
 
 1.	You need to have Java version 20.0.1 and Node v20.2.0 installed on your machine.
 2.	Run “npm install” (without the quotes) before running the test scripts in order to install missing dependencies.
 3.	Due to conflicts with Fountain on the AUT3 QA server, I’m using the Pod2 Platoon 4 QA env to execute my automation tests.
 4.	Note: I’m committing Allure test reports/results to demonstrate that the code is working as expected.  Normally, this would be added to the .gitignore file. 
 
-##Run the Following Commands to Execute Test Scripts
+**Run the Following Commands to Execute Test Scripts**
 
 •	npm run wdio: Generates an allure-results folder containing several XML files
 •	npm run test: 
