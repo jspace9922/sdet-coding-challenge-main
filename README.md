@@ -20,11 +20,23 @@ The task is to write an automated test validating that a user can create an acco
 **Note**: Please enter 10 digit phone number (7589577506) and 5 digit zip code (02090) for test data during testing.
 
 ## Test Framework Instructions
+##Pre-Requisites 
 
-1. Fork this repository to your own GitHub account. You'll be submitting your final repository to us to review.
-2. Add test files in /test/specs folder
-3. To run your tests, execute: 
-```
-$ npm install
-$ npx wdio run wdio.conf.js
-```# sdet-coding-challenge-main
+1.	You need to have Java version 20.0.1 and Node v20.2.0 installed on your machine.
+2.	Run “npm install” (without the quotes) before running the test scripts in order to install missing dependencies.
+3.	Due to conflicts with Fountain on the AUT3 QA server, I’m using the Pod2 Platoon 4 QA env to execute my automation tests.
+4.	Note: I’m committing Allure test reports/results to demonstrate that the code is working as expected.  Normally, this would be added to the .gitignore file. 
+
+##Run the Following Commands to Execute Test Scripts
+
+•	npm run wdio: Generates an allure-results folder containing several XML files
+•	npm run test: 
+•	npm run pretest: Deletes previously generated Allure test reports and results 
+•	npm run posttest: Generates Allure test reports and results 
+•	npm run runSmokeTest: Executes happypath.js test case
+•	npm run runRegressionTest: Executes negativepath.js test case
+•	npm run report: 
+•	npm run report-generate: Generates HTML test report based on XML files
+•	npm run report-open: Opens HTML test report using Allure
+
+
