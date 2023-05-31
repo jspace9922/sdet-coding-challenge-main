@@ -5,8 +5,7 @@
 
 1.	You need to have Java version 20.0.1 and Node v20.2.0 installed on your machine.
 2.	Run “npm install” (without the quotes) before running the test scripts in order to install missing dependencies.
-3.	Due to conflicts with Fountain on the AUT3 QA server, I’m using the Pod2 Platoon 4 QA env to execute my automation tests.
-4.	Note: I’m committing Allure test reports/results to demonstrate that I've implemented HTML reporting in my project.
+3.	Note: I’m committing Allure test reports/results to demonstrate that I've implemented HTML reporting in my project. In addition, due to conflicts with Fountain on the AUT3 QA server, I’m using the Pod2 Platoon 4 QA env to execute my automation tests.
 
 **Run the Following Commands to Execute Test Scripts**
 
