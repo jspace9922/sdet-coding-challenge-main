@@ -20,12 +20,14 @@
 
 
 <img width="1507" alt="github1" src="https://github.com/jspace9922/sdet-coding-challenge-main/assets/134408657/1bdc9c1b-dfe5-4e92-bf3e-0176b8f5c419">
-**Screenshot of Passing Tests**
+
+## Screenshot of Passing Tests
 
 
 
 
 <img width="1512" alt="github2" src="https://github.com/jspace9922/sdet-coding-challenge-main/assets/134408657/9bb91f1a-dd5c-4282-9173-a3bc88478cd3">
+
 **Screenshot of Broken Test**
 
 
