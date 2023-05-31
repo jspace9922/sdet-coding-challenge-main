@@ -16,14 +16,11 @@
         "wdio-chromedriver-service": "^8.1.1"
     },
     "scripts": {
-        "test": "npm-run-all wdio report --continue-on-error",
-        "runSmokeTest": "wdio run wdio.conf.js --suite smoke",
-        "runRegressionTest": "wdio run wdio.conf.js --suite regression",
-        "report": "allure generate allure-results --clean && allure open",
+        "test": "npm-run-all wdio --continue-on-error",
+        "smokeTest": "wdio run wdio.conf.js --suite smoke",
+        "regressionTest": "wdio run wdio.conf.js --suite regression",
         "pretest": "rimraf allure-results && rimraf allure-report && rimraf test-screenshots && rimraf wdio-logs",
         "wdio": "wdio run ./wdio.conf.js",
-        "report-generate": "allure generate allure-results --clean",
-        "report-open": "allure open",
         "posttest": "allure generate allure-results --clean && allure open"
     }
 }
