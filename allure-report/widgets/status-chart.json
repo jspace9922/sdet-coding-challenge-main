@@ -1,0 +1,1 @@
+[{"uid":"864caa302d74d179","name":"Happy Path Basic Info Page","time":{"start":1684852100591,"stop":1684852100591,"duration":0},"status":"broken","severity":"normal"},{"uid":"ce6b1cdcabaad88b","name":"Validate Continue Button is Unclickable without Mandatory Fields","time":{"start":1684852100599,"stop":1684852100599,"duration":0},"status":"failed","severity":"normal"}]
