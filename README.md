@@ -29,14 +29,17 @@ The task is to write an automated test validating that a user can create an acco
 
 **Run the Following Commands to Execute Test Scripts**
 
-• npm run wdio: Generates an allure-results folder containing several XML files
-• npm run test: 
-• npm run pretest: Deletes previously generated Allure test reports and results 
-• npm run posttest: Generates Allure test reports and results 
-• npm run runSmokeTest: Executes happypath.js test case
-• npm run runRegressionTest: Executes negativepath.js test case
-• npm run report: 
-• npm run report-generate: Generates HTML test report based on XML files
-• npm run report-open: Opens HTML test report using Allure
+1.	npm run wdio: Generates an allure-results folder containing several XML files
+2.	npm run test: 
+3.	npm run pretest: Deletes previously generated Allure test reports and results 
+4.	npm run posttest: Generates Allure test reports and results 
+5.	npm run runSmokeTest: Executes happypath.js test case
+6.	npm run runRegressionTest: Executes negativepath.js test case
+7.	npm run report: 
+8.	npm run report-generate: Generates HTML test report based on XML files
+9.	npm run report-open: Opens HTML test report using Allure
+
+
+
 
 
