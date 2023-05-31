@@ -12,7 +12,7 @@
 1. npm run smokeTest: Executes happypath.js test case
 2. npm run regressionTest: Executes negativepath.js test case
 3. npm run pretest: Deletes previously generated Allure test reports and results 
-4. npm run test: Runs all test scripts and generates test results folder.  Includes “–continue-on-error” to allow failed tests to be executed     
+4. npm run test: Runs all test scripts and generates test results folder.       
 5. npm run posttest: Generates Allure test reports and results
 6. npm run wdio: Runs all tests based on ./wdio.conf.js. Generates an allure-results folder containing several XML files
 
