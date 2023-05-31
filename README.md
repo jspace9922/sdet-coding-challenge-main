@@ -20,7 +20,7 @@ The task is to write an automated test validating that a user can create an acco
 **Note**: Please enter 10 digit phone number (7589577506) and 5 digit zip code (02090) for test data during testing.
 
 ## Test Framework Instructions
-**Pre-Requisites **
+**Pre-Requisites**
 
 1.	You need to have Java version 20.0.1 and Node v20.2.0 installed on your machine.
 2.	Run “npm install” (without the quotes) before running the test scripts in order to install missing dependencies.
@@ -29,14 +29,14 @@ The task is to write an automated test validating that a user can create an acco
 
 **Run the Following Commands to Execute Test Scripts**
 
-•	npm run wdio: Generates an allure-results folder containing several XML files
-•	npm run test: 
-•	npm run pretest: Deletes previously generated Allure test reports and results 
-•	npm run posttest: Generates Allure test reports and results 
-•	npm run runSmokeTest: Executes happypath.js test case
-•	npm run runRegressionTest: Executes negativepath.js test case
-•	npm run report: 
-•	npm run report-generate: Generates HTML test report based on XML files
-•	npm run report-open: Opens HTML test report using Allure
+• npm run wdio: Generates an allure-results folder containing several XML files
+• npm run test: 
+• npm run pretest: Deletes previously generated Allure test reports and results 
+• npm run posttest: Generates Allure test reports and results 
+• npm run runSmokeTest: Executes happypath.js test case
+• npm run runRegressionTest: Executes negativepath.js test case
+• npm run report: 
+• npm run report-generate: Generates HTML test report based on XML files
+• npm run report-open: Opens HTML test report using Allure
 
 
