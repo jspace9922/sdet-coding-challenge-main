@@ -8,7 +8,7 @@
 3.	Due to conflicts with Fountain on the AUT3 QA server, I’m using the Pod2 Platoon 4 QA env to execute my automation tests.
 4.	Note: I’m committing Allure test reports/results to demonstrate that I've implemented HTML reporting in my project.
 
-**Run the Following Scripts to Execute Test Scripts**
+**Run the Following Commands to Execute Test Scripts**
 
 1. npm run smokeTest: Executes happypath.js test case
 2. npm run regressionTest: Executes negativepath.js test case
